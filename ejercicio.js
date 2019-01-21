@@ -37,5 +37,5 @@ var gano2=0;
          console.log("Volver a ingresar");}
         }
 
-    if(gano1==2){document.write("GANO EL JUGADOR 1")}
-    else if(gano2==2){document.write("GANO EL JUGADOR 2")}
+    if(gano1==2){document.write("Felicitaciones, " + nombreJugador1 + " GANASTE!!!")}
+    else if(gano2==2){document.write("Felicitaciones, " + nombreJugador2 + " GANASTE!!!")}
